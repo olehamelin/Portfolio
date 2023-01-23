@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: gainsboro;
+}
+
+ul {
+	list-style: none;
+}
+
+main {
+	margin: 1rem;
+	display: grid;
+	grid-template-columns: 33% 1fr;
+	grid-gap: 1rem;
+}
+
+.personal,
+.skills {
+	padding: 1rem;
+	line-height: 2;
+}
+
+.left {
+	background-color: white;
+	word-wrap: break-word;
+}
+
+.left-image img {
+	width: 100%;
+}
+
+.right {
+	background-color: white;
+	padding: 1.5rem;
+}
+
+.experience,
+.project {
+	line-height: 2;
+}
+
+.experience ul {
+	margin: 2rem 0;
+}
+
+.date {
+	color: rgb(212, 133, 30);
+}
+
+.project ul {
+	margin: 1rem 0;
+}
+
+.fa-file {
+	color: grey;
+}
+
+.fa-user-astronaut {
+	color: orangered;
+}
